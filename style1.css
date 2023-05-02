@@ -1,0 +1,25 @@
+.p1{
+ margin-top: -600px;
+}
+.p1 video{
+width: 111.5%;
+margin-left: -120px;
+margin-top: 10px;
+height: 85vh;
+background-image: linear-gradient(to right, #313734 0%, #4b4d4c 100%);
+}
+.description{
+    width: 100%;
+}
+.description .info-head{
+    margin-left: 20%;
+    margin-top: 1%;
+}
+.description .info-det{
+    margin-left: 10%;
+    margin-top: 1.5%;
+}
+.p1 .description .info-det{
+    margin-left: 2%;
+    margin-top: 1.5%;
+}

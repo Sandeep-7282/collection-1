@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en" class="new-ht">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body class="new-b">
+    <nav  class="flex">
+        <div class="left-nav flex">
+            <img src="menu.png" class="menu">
+            <img src="logo2.png" class="logo">
+        </div>
+        <div class="mid-nav flex">
+          <div class="search flex">
+            <input type="text" placeholder="Search" >
+            <img src="search.png">
+          </div>
+          <img src="voice-search.png" class="voice">
+        </div>
+        <div class="right-nav flex">
+            <img src="upload.png" >
+            <img src="more.png">
+            <img src="notification.png">
+            <img src="b1.jpg" class="j">
+    </div>
+    </nav>
+    <div class="sidebar">
+        <div class="opt">
+      <a href="index.html"><img src="home.png"><p class="red">Home</p></a>
+      <a href=""><img src="explore.png" ><p>Explore</p></a>
+      <a href=""><img src="library.png" ><p>Library</p></a>
+     
+      <a href=""><img src="messages.png" ><p>Messages</p></a>
+      <a href=""><img src="cast.png" ><p>Cast videos</p></a>
+      <a href=""><img src="playlist.png" ><p>Playlist</p></a>
+      <a href=""><img src="subscriprion.png" ><p>Subscriptions</p></a>
+      <a href=""><img src="show-more.png" ><p>Show more</p></a>
+        </div>
+ </div>
+ <div class="container2">
+    <div class="items">
+        <div class="play">
+            <video autoplay controls>
+                <source src="karna-vid/theme song.mp4" type="video/mp4" class="main-v">
+            </video>
+        </div>
+        <div class="description">
+            <h2 class="info-head">This is jack-sparrow's one of the best line.</h2>
+            <p class="info-det">
+                Write your description here.
+            </p>
+        </div>
+    </div>
+ </div>
+<script>
+    var mi=document.querySelector(".menu");
+        var sb=document.querySelector(".sidebar");
+        var z1=document.querySelector(".container2");
+        mi.onclick=function(){
+          sb.classList.toggle("sb1");
+          z1.classList.toggle("p1");
+        }
+  </script>
+</body>
+</html>
